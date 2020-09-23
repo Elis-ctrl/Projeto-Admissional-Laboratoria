@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onLoad="questionario();" style="background-color: darkgray;">
+    <div >
+        <div style="text-align: center;">
+            VESTIBULAR
+            <p>
+                Olá, <span id="name"></span>      
+            </p>
+        </div>        
+        <p style="text-align: center;font-size: 40px;font-weight: bold;">Resultados</p>
+        <div style="display:flex;justify-content: center;">
+            <div style="border:1px solid black;height: 500px;text-align: center;width: 500px;justify-content: center;align-items: center;font-weight: bold;font-size: 40px;">
+                <p>Respostas Corretas</p>
+                <p style="color:green" id="resposta1correta"></p>
+                <p style="color:green" id="resposta2correta"></p>
+                <p style="color:green" id="resposta3correta"></p>
+            </div>
+            <div style="border:1px solid black;width: 500px;height: 500px;text-align: center;font-size: 40px;font-weight: bold;">
+                <p>Respostas Erradas</p>
+                <p style="color:red" id="resposta1errada"></p>
+                <p style="color:red" id="resposta2errada"></p>
+                <p style="color:red" id="resposta3errada"></p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"> </script>
+</body>
+</html>
